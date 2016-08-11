@@ -1,0 +1,9 @@
+#!/bin/sh
+
+cd `dirname $0`
+date > file.txt
+git add file.txt
+git commit -m "Updated file.txt."
+git checkout test
+git merge master
+
