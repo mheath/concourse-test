@@ -5,6 +5,7 @@ git config --global user.name "Your Mom"
 
 
 cd `dirname $0`
+git pull
 date > file.txt
 git add file.txt
 git commit -m "Updated file.txt."
